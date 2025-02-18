@@ -1,0 +1,91 @@
+{
+	"info": {
+		"name": "Teste Digio Backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [{
+			"name": "Busca Maior Compra/Ano",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/teste-digio/v1/maior-compra/:ANO",
+					"host": [
+						"http://localhost:8080"
+					],
+					"path": [
+						"teste-digio",
+						"v1",
+						"maior-compra",
+						"ANO"
+					],
+					"variable": [
+						{
+							"key": "ANO"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Compras",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/teste-digio/v1/compras",
+					"host": [
+						"http://localhost:8080"
+					],
+					"path": [
+						"teste-digio",
+						"v1",
+						"compras"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busca Clientes Fieis Top 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/teste-digio/v1/clientes-fies",
+					"host": [
+						"http://localhost:8080"
+					],
+					"path": [
+						"teste-digio",
+						"v1",
+						"clientes-fies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busca Recomendacao Vinho",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/teste-digio/v1/recomendacao/cliente/tipo",
+					"host": [
+						"http://localhost:8080"
+					],
+					"path": [
+						"teste-digio",
+						"v1",
+						"recomendacao",
+						"cliente",
+						"tipo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
